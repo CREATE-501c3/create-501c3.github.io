@@ -5,9 +5,10 @@
    [create.website.events :as events]
    [create.website.routes :as routes]
    [create.website.views :as views]
-   [create.website.config :as config]
-   ))
-
+   [create.website.views.about]
+   [create.website.views.home]
+   [create.website.views.teams]
+   [create.website.config :as config]))
 
 (defn dev-setup []
   (when config/debug?

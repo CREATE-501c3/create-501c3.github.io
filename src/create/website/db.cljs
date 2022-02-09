@@ -1,4 +1,3 @@
 (ns create.website.db)
 
-(def default-db
-  {:name "re-frame"})
+(def default-db {})
