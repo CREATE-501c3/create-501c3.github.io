@@ -1,7 +1,7 @@
-# create.website
+# CREATE Website
 
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
-you.
+A [re-frame](https://github.com/day8/re-frame) Single Page Application (SPA)
+designed for the CREATE 501(c)(3) organization.
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ you.
   - CLJS compilation, dependency management, REPL, & hot reload: [`shadow-cljs`](https://github.com/thheller/shadow-cljs)
 * Development tools
   - Debugging: [CLJS DevTools](https://github.com/binaryage/cljs-devtools),
-  [`re-frame-10x`](https://github.com/day8/re-frame-10x)
+  [`re-frisk`](https://github.com/flexsurfer/re-frisk)
   - Emacs integration: [CIDER](https://github.com/clojure-emacs/cider)
   - Linter: [clj-kondo](https://github.com/borkdude/clj-kondo)
 
