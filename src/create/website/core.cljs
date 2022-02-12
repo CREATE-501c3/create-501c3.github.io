@@ -5,7 +5,6 @@
    [create.website.events :as events]
    [create.website.routes :as routes]
    [create.website.views :as views]
-   [create.website.views.home]
    [create.website.views.teams]
    [create.website.config :as config]))
 
