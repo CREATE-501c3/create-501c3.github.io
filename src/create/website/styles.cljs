@@ -23,4 +23,4 @@
 
 (defclass team-logo
   []
-  {:max-width "100px"})
+  {:max-width "200px"})

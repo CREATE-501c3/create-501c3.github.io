@@ -26,6 +26,7 @@
    :gap      "1em"
    :children [[frc-3206-logo]
               [frc-3206-title]
+              [re-com/p "Established as an extra-curricular team at the Woodbury High School in 2014, this team has..."]
               [frc-3206-link-to-homepage]]])
 
 (defn teams-panel []
