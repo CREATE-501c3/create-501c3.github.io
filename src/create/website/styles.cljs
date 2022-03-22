@@ -3,24 +3,25 @@
     [garden.def :refer [defcssfn]])
   (:require
     [spade.core   :refer [defglobal defclass]]
-    [garden.units :refer [deg px]]
-    [garden.color :refer [rgba]]))
-
-(defcssfn linear-gradient
- ([c1 p1 c2 p2]
-  [[c1 p1] [c2 p2]])
- ([dir c1 p1 c2 p2]
-  [dir [c1 p1] [c2 p2]]))
+    [garden.units :refer [px]]))
 
 (defglobal defaults
   [:body
-   {:color               :black
-    :background-color    :#fff}])
+   {:color            :black
+    :background-color :white
+    :padding          (px 10)}])
 
 (defclass level1
   []
   {:color :navy})
 
+(defclass create-logo-text []
+  {:color       :blue
+   :display     "inline-block"
+   :font-size   (px 24)
+   :font-weight 900
+   :font-family "roboto"})
+
 (defclass team-logo
   []
-  {:max-width "200px"})
+  {:min-width (px 200)})
